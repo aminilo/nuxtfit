@@ -47,15 +47,15 @@
 
 <style scoped>
 .about-container {
-  @apply container mx-auto px-4 py-10 text-light-one dark:text-dark-one;
+  @apply container mx-auto px-4 py-10 text-light-one dark:text-dark-one text-sm md:text-lg;
 }
 
 .page-title {
-  @apply text-3xl font-bold mb-4;
+  @apply text-2xl md:text-3xl font-bold mb-4;
 }
 
 .intro-text {
-  @apply text-lg mb-8;
+  @apply mb-8;
 }
 
 .about-section {
@@ -63,7 +63,7 @@
 }
 
 .section-heading {
-  @apply text-xl font-bold mb-3;
+  @apply text-lg md:text-xl font-bold mb-3;
 }
 
 .list {

@@ -41,7 +41,7 @@ const handleAdd = (product)=> {
   <section>
     <h2 class="section-title">Explore Products</h2>
 
-    <div class="mb-6 flex flex-wrap gap-3">
+    <div class="mb-6 flex flex-wrap gap-2">
       <button
         v-for="cat in categories"
         :key="cat"
@@ -85,7 +85,7 @@ const handleAdd = (product)=> {
 }
 
 .product-grid {
-  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
 }
 
 .product-card {
@@ -113,7 +113,7 @@ const handleAdd = (product)=> {
 }
 
 .category-button {
-  @apply px-4 py-2 border border-gray-300 dark:border-gray-600 rounded text-sm font-medium transition hover:bg-dark-two dark:hover:bg-light-two;
+  @apply px-4 py-2 border border-gray-300 dark:border-gray-600 rounded text-sm transition hover:bg-dark-two dark:hover:bg-light-two;
 }
 
 .category-button.active {
